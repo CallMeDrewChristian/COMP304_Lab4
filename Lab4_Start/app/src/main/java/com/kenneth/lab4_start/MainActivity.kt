@@ -55,6 +55,13 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+// LazyColumn(
+// verticalArrangement = Arrangement.spacedBy(space = 8.dp)
+// ){
+//  item()
+// }
+
+
 @Composable
 fun PlacesApp() {
     val navController = rememberNavController()
